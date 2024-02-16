@@ -37,3 +37,7 @@ h1 {
 p {
   font-family: "Josefin Slab", serif;
 }
+
+.hero {
+  max-width: 100%;
+}
