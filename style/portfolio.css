@@ -41,8 +41,9 @@ p {
 }
 
 a {
-  text-align: left;
   color: black;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
 }
 
 .footer {
@@ -155,5 +156,9 @@ Recipe page style:
 }
 
 .recipes-preview {
+  margin-right: 0px;
+  margin-top: 20px;
   max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
 }
