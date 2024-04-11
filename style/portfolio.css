@@ -28,6 +28,7 @@ General style:
 
 body {
   background: white;
+  max-width: 100%;
 }
 
 h1 {
@@ -39,9 +40,30 @@ p {
   font-family: "Josefin Slab", serif;
 }
 
+a {
+  text-align: left;
+  color: black;
+}
+
+.footer {
+  background: rgb(250, 249, 249);
+  max-width: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-credit {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.mainpic {
+  max-width: 100%;
+}
+
 .philosophy {
   margin-top: 50px;
   margin-bottom: 20px;
+  margin-left: 50px;
 }
 
 /*
@@ -80,15 +102,6 @@ Homepage style:
 }
 .community-image {
   max-width: 33.3%;
-}
-
-.footer {
-  font-family: "Montserrat", sans-serif;
-}
-
-.footer-credit {
-  font-size: 12px;
-  font-family: "Montserrat", sans-serif;
 }
 
 .section-buttons p {
@@ -139,4 +152,8 @@ Recipe page style:
 
 .recipe-page h2 {
   color: rgb(249, 170, 100);
+}
+
+.recipes-preview {
+  max-width: 100%;
 }
