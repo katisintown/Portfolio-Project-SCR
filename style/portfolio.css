@@ -20,13 +20,14 @@
   font-weight: <weight>;
   font-style: normal;
 }
+*/
 
-
-
+/*
+General style: 
 */
 
 body {
-  background-color: lightgray;
+  background: white;
 }
 
 h1 {
@@ -37,6 +38,15 @@ h1 {
 p {
   font-family: "Josefin Slab", serif;
 }
+
+.philosophy {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+/*
+Homepage style: 
+*/
 
 .hero {
   max-width: 100%;
@@ -113,4 +123,20 @@ p {
   .hero-image {
     display: none;
   }
+}
+
+/*
+Recipe page style: 
+*/
+.recipe-page h1 {
+  background: rgb(249, 170, 100);
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 10px 5px;
+  text-align: center;
+}
+
+.recipe-page h2 {
+  color: rgb(249, 170, 100);
 }
