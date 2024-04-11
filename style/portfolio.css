@@ -47,7 +47,7 @@ p {
     rgb(247, 198, 169) 54.2%,
     rgb(21, 186, 196) 100.3%
   );
-  padding: 50px 20px;
+  padding: 50px 0px;
 }
 
 .hero h1 {
@@ -57,7 +57,7 @@ p {
 }
 
 .hero-image {
-  border-radius: 5px;
+  border-radius: 0px;
   padding-bottom: 20px;
   margin-bottom: 50px;
 }
