@@ -71,12 +71,15 @@ p {
 
 .recipes-button p {
   background: rgb(249, 170, 100);
+  max-width: 100px;
 }
 
 .garden-button p {
   background: rgb(21, 186, 196);
+  max-width: 100px;
 }
 
 .community-button p {
   background: rgb(203, 132, 253);
+  max-width: 100px;
 }
