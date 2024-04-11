@@ -72,6 +72,15 @@ p {
   max-width: 33.3%;
 }
 
+.footer {
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-credit {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+}
+
 .section-buttons p {
   border-radius: 10px;
   color: rgb(36, 34, 34);
