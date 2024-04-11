@@ -67,6 +67,18 @@ a {
   margin-left: 50px;
 }
 
+@media (max-width: 767.5px) {
+  .mainpic {
+    display: none;
+  }
+  .previewpic {
+    margin-left: 55px;
+  }
+  .recipe-name {
+    margin-left: 55px;
+  }
+}
+
 /*
 Homepage style: 
 */
