@@ -42,7 +42,6 @@ p {
 
 a {
   color: black;
-  font-family: "Montserrat", sans-serif;
   text-align: left;
 }
 
@@ -76,6 +75,7 @@ a {
   }
   .recipe-name {
     margin-left: 55px;
+    font-family: "Montserrat", sans-serif;
   }
 }
 
