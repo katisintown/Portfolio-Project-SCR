@@ -46,7 +46,7 @@ a {
 }
 
 .footer {
-  background: rgb(250, 249, 249);
+  background: rgba(250, 249, 249, 0.913);
   max-width: 100%;
   font-family: "Montserrat", sans-serif;
 }
@@ -209,4 +209,24 @@ Garden page style:
   border-radius: 5px;
   margin-top: 40px;
   padding: 15px 20px;
+}
+
+/*
+Community page style: 
+*/
+.community-page h1 {
+  background: rgb(203, 132, 253);
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 10px 5px;
+  text-align: center;
+}
+
+.community-page h2 {
+  color: rgb(203, 132, 253);
+}
+.community-page h3 {
+  font-size: 18px;
+  color: rgb(57, 36, 72);
 }
