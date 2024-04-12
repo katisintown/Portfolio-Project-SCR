@@ -25,47 +25,38 @@
 /*
 General style: 
 */
-
 body {
   background: white;
   max-width: 100%;
 }
-
 h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
-
 p {
   font-family: "Josefin Slab", serif;
 }
-
 a {
   color: black;
   text-align: left;
 }
-
 .footer {
   background: rgba(250, 249, 249, 0.913);
   max-width: 100%;
   font-family: "Montserrat", sans-serif;
 }
-
 .footer-credit {
   font-size: 12px;
   font-family: "Montserrat", sans-serif;
 }
-
 .mainpic {
   max-width: 100%;
 }
-
 .philosophy {
   margin-top: 50px;
   margin-bottom: 20px;
   margin-left: 50px;
 }
-
 @media (max-width: 767.5px) {
   .mainpic {
     display: none;
@@ -78,11 +69,9 @@ a {
     font-family: "Montserrat", sans-serif;
   }
 }
-
 /*
 Homepage style: 
 */
-
 .hero {
   max-width: 100%;
   text-align: center;
@@ -94,19 +83,16 @@ Homepage style:
   );
   padding: 50px 0px;
 }
-
 .hero h1 {
   font-size: 90px;
   color: rgb(36, 34, 34);
   margin-bottom: 30px;
 }
-
 .hero-image {
   border-radius: 0px;
   padding-bottom: 20px;
   margin-bottom: 50px;
 }
-
 .garden-image {
   max-width: 33.3%;
 }
@@ -116,7 +102,6 @@ Homepage style:
 .community-image {
   max-width: 33.3%;
 }
-
 .section-buttons p {
   border-radius: 10px;
   color: rgb(36, 34, 34);
@@ -126,15 +111,12 @@ Homepage style:
   font-size: 24px;
   padding: 8px 5px;
 }
-
 .recipes-button p {
   background: rgb(249, 170, 100);
 }
-
 .garden-button p {
   background: rgb(21, 186, 196);
 }
-
 .community-button p {
   background: rgb(203, 132, 253);
 }
@@ -150,7 +132,6 @@ Homepage style:
     display: none;
   }
 }
-
 /*
 Recipe page style: 
 */
@@ -162,11 +143,9 @@ Recipe page style:
   padding: 10px 5px;
   text-align: center;
 }
-
 .recipe-page h2 {
   color: rgb(249, 170, 100);
 }
-
 .recipes-preview {
   margin-right: 0px;
   margin-top: 20px;
@@ -174,11 +153,9 @@ Recipe page style:
   padding-left: 0;
   padding-right: 0;
 }
-
 /*
 Garden page style: 
 */
-
 .garden-page h1 {
   background: rgb(21, 186, 196);
   color: white;
@@ -187,7 +164,6 @@ Garden page style:
   padding: 10px 5px;
   text-align: center;
 }
-
 .garden-page h2 {
   color: rgb(21, 186, 196);
 }
@@ -195,7 +171,6 @@ Garden page style:
   font-size: 18px;
   color: rgb(9, 73, 76);
 }
-
 .garden-preview {
   border-radius: 5px;
   margin-right: 0px;
@@ -210,7 +185,6 @@ Garden page style:
   margin-top: 40px;
   padding: 15px 20px;
 }
-
 /*
 Community page style: 
 */
@@ -222,11 +196,40 @@ Community page style:
   padding: 10px 5px;
   text-align: center;
 }
-
 .community-page h2 {
   color: rgb(203, 132, 253);
 }
 .community-page h3 {
   font-size: 18px;
   color: rgb(57, 36, 72);
+}
+.left-aligned .community-preview {
+  padding: 15px;
+  box-shadow: 3px 3px 5px rgb(146, 144, 144);
+}
+
+.right-aligned .community-preview {
+  padding: 15px;
+  box-shadow: -3px 3px 5px rgb(146, 144, 144);
+}
+
+.preview-section {
+  margin-left: 60px;
+}
+
+.left-aligned {
+  background: rgb(247, 235, 246);
+  text-align: left;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  max-width: 80%;
+  border-radius: 10px;
+}
+.right-aligned {
+  background: rgb(217, 211, 217);
+  text-align: right;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-width: 80%;
+  border-radius: 10px;
 }
