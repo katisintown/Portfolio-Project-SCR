@@ -219,7 +219,6 @@ Community page style:
 .preview-section {
   margin-left: 60px;
 }
-
 .left-aligned {
   background: rgb(247, 235, 246);
   text-align: left;
@@ -235,4 +234,33 @@ Community page style:
   margin-bottom: 40px;
   max-width: 80%;
   border-radius: 10px;
+}
+
+/*
+Contact page style: 
+*/
+.contact-page h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.contact-page .row {
+  display: flex;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.mail {
+  text-align: center;
+}
+.phone {
+  text-align: center;
+}
+.mail-icon img {
+  max-height: 100px;
+  margin: 10px auto;
+}
+.phone-icon img {
+  max-height: 100px;
+  margin: 10px auto;
 }
