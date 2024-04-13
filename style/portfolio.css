@@ -41,7 +41,7 @@ a {
   text-align: left;
 }
 .footer {
-  background: rgba(250, 249, 249, 0.913);
+  background: rgba(250, 249, 249, 0.4);
   max-width: 100%;
   font-family: "Montserrat", sans-serif;
 }
@@ -49,6 +49,11 @@ a {
   font-size: 12px;
   font-family: "Montserrat", sans-serif;
 }
+
+.header {
+  background: rgba(250, 249, 249, 0.4);
+}
+
 .mainpic {
   max-width: 100%;
 }
@@ -72,15 +77,18 @@ a {
 /*
 Homepage style: 
 */
-.hero {
-  max-width: 100%;
-  text-align: center;
+
+.homepage {
   background: radial-gradient(
     circle at 10% 20%,
     rgb(253, 239, 132) 0%,
     rgb(247, 198, 169) 54.2%,
     rgb(21, 186, 196) 100.3%
   );
+}
+.hero {
+  max-width: 100%;
+  text-align: center;
   padding: 50px 0px;
 }
 .hero h1 {
